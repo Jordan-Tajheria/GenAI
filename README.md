@@ -2,7 +2,7 @@
 
 This repo holds code for a chatbot built using OpenAI API, which is used for ChatGPT. It can produce rudimentary answers for questions based on the provideded dataset. This application was done using the following tutorial: https://www.youtube.com/watch?v=tjeti5vXWOU as well as various other documentation
 
-## To run on your local device the following should be installed. NOTE: Make sure that wherever the interpreter is pointing to, that the packages are installed in that location i.e. if running from the virtual environment that these are installed in the environment or if running from root that packages are installed globally.
+### To run on your local device the following should be installed. NOTE: Make sure that wherever the interpreter is pointing to, that the packages are installed in that location i.e. if running from the virtual environment that these are installed in the environment or if running from root that packages are installed globally.
 
 ### Python
 
@@ -53,6 +53,9 @@ In order to avoid exposing the API Token it is not added in this repository. Fur
 ```
 .env file
 ```
+
+Go to the site below, create an account, go to settings to create a key and put it in the file above.
+https://openai.com
 
 ## Running the app
 

@@ -10,6 +10,7 @@ def main():
 
     load_dotenv()
 
+    #Checks whether the openapi token has been provided or not, alerting the user so that they can take action.
     if os.getenv("OPENAI_API_KEY") is None or os.getenv("OPENAI_API_KEY") == "":
         print("OPENAI_API_KEY is not set")
         exit(1)
